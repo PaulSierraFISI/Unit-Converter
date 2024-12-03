@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unit Converter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="panel">
+    <h1>Unit Converter</h1>      
+    <form >    
+      <select name="" id="measure">
+        <option value="0">Length</option>
+        <option value="1">Weight</option>
+        <option value="2">Temperature</option>
+      </select>        
+      <label for="value">Unit to Convert from</label>
+      <div>
+        <select name="" id="convertFrom">
+          <option value="0">pies</option>
+          <option value="1">centimetros</option>
+          <option value="2">metros</option>
+        </select>            
+        <input type="number" id="valueToConvert" required>
+      </div>        
+      <label for="fromUnit">Unit to Convert to</label>
+      <div>
+        <select name="" id="convertTo">
+          <option value="0">pies</option>
+          <option value="1">centimetros</option>
+          <option value="2">metros</option>
+        </select>
+        <div></div>            
+      </div>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
