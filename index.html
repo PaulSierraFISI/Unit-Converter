@@ -10,31 +10,31 @@
   <div class="panel">
     <h1>Unit Converter</h1>      
     <form >    
-      <select name="" id="measure">
-        <option value="0">Length</option>
+      <select  id="measure"><!-- 
+        <option value="2">Length</option>
         <option value="1">Weight</option>
-        <option value="2">Temperature</option>
+        <option value="0">Temperature</option> -->
       </select>        
-      <label for="value">Unit to Convert from</label>
+      <label for="convertFrom">Unit to Convert from</label>
       <div>
-        <select name="" id="convertFrom">
+        <select id="convertFrom"><!-- 
           <option value="0">pies</option>
           <option value="1">centimetros</option>
-          <option value="2">metros</option>
+          <option value="2">metros</option> -->
         </select>            
-        <input type="number" id="valueToConvert" required>
+        <input type="number" placeholder="0" id="valueToConvert" required>
       </div>        
-      <label for="fromUnit">Unit to Convert to</label>
+      <label for="convertTo">Unit to Convert to</label>
       <div>
-        <select name="" id="convertTo">
+        <select id="convertTo"><!-- 
           <option value="0">pies</option>
           <option value="1">centimetros</option>
-          <option value="2">metros</option>
+          <option value="2">metros</option> -->
         </select>
-        <div></div>            
+        <div id="newValue"></div>            
       </div>
     </form>
   </div>
-  <script src="script.js"></script>
+  <script type="module" src="script.js"></script>
 </body>
 </html>
