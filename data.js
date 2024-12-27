@@ -47,7 +47,7 @@ const data =[
                 {
                     "key":"inch(in)"  ,
                     "value":"in",
-                    "conversionFactor": 39.3701
+                    "conversionFactor": 39.3700787
                 },
                 {
                     "key": "centimeter(cm)" ,
@@ -77,7 +77,7 @@ const data =[
                 {
                     "key": "yard(yd)" ,
                     "value":"yd",
-                    "conversionFactor": 1.09361
+                    "conversionFactor": 1.0936100
                 },
                 {
                     "key": "milimeter(mm)" ,

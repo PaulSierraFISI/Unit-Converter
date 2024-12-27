@@ -67,9 +67,6 @@ function convertValue(){
     if(info!=undefined){         
         fromUnitObject = info["units"].find((e)=>e.value == fromUnit);        
         toUnitObject = info["units"].find((e)=>e.value == toUnit);     
-
-        console.log(fromUnitObject.conversionFactor);
-        console.log(toUnitObject.conversionFactor);
         
         if(fromUnitObject == undefined || toUnitObject == undefined){
             throw new Error()
